@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.techun.paxcomponents.sdk_pax.module_emv.utils.ClssLight
+        android:id="@+id/light1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_20"
+        android:layout_weight="1"
+        android:contentDescription=""
+        android:scaleType="fitCenter"
+        android:src="@drawable/led_off"
+        app:offSrc="@drawable/led_off"
+        app:onSrc="@drawable/led_blue_on" />
+
+    <com.techun.paxcomponents.sdk_pax.module_emv.utils.ClssLight
+        android:id="@+id/light2"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_20"
+        android:layout_weight="1"
+        android:contentDescription=""
+        android:scaleType="fitCenter"
+        android:src="@drawable/led_off"
+        app:offSrc="@drawable/led_off"
+        app:onSrc="@drawable/led_yellow_on" />
+
+    <com.techun.paxcomponents.sdk_pax.module_emv.utils.ClssLight
+        android:id="@+id/light3"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_20"
+        android:layout_weight="1"
+        android:contentDescription=""
+        android:scaleType="fitCenter"
+        android:src="@drawable/led_off"
+        app:offSrc="@drawable/led_off"
+        app:onSrc="@drawable/led_green_on" />
+
+    <com.techun.paxcomponents.sdk_pax.module_emv.utils.ClssLight
+        android:id="@+id/light4"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_20"
+        android:layout_weight="1"
+        android:contentDescription=""
+        android:scaleType="fitCenter"
+        android:src="@drawable/led_off"
+        app:offSrc="@drawable/led_off"
+        app:onSrc="@drawable/led_red_on" />
+
+</LinearLayout>

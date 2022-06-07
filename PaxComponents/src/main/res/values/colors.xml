@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="led_green">#2AFF00</color>
+    <color name="led_blue">#0000FF</color>
+    <color name="led_red">#FF0000</color>
+    <color name="led_yellow">#FAFB18</color>
+    <color name="visa_yellow">#FFDB00</color>
+</resources>

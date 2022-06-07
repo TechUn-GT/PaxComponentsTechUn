@@ -1,0 +1,9 @@
+<resources>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="MyEditText">
+        <attr name="enableAlpha" format="boolean" />
+    </declare-styleable>
+</resources>
